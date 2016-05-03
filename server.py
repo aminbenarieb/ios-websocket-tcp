@@ -34,6 +34,6 @@ class AminChat(Protocol):
 factory = Factory()
 factory.clients = []
 factory.protocol = AminChat
-reactor.listenTCP(81, factory)
+reactor.listenTCP(82, factory)
 print "Amin Chat server started"
 reactor.run()
